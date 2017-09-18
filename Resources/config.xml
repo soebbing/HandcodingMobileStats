@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+
+    <elements>
+        <element type="text">
+            <name>Token</name>
+            <label lang="de">Zugriffs-Token</label>
+            <label lang="en">Access token</label>
+            <value>MobileStats</value>
+            <description lang="de">Behandeln Sie dieses Token wie ein Passwort, dass Ihnen Zugriff auf Ihre Statistiken gewährt.</description>
+            <description lang="en">Use this token like a password, giving you access to your stats.</description>
+        </element>
+    </elements>
+
+</config>
